@@ -1,0 +1,11 @@
+f = open('mytext.txt', 'w')
+f.write('Hello world!\n')
+f.write('This is my text file.\n')
+f.write('And this is yet another line in this text file.\n')
+f.write('Okay, I’m done now, have nice day.\n')
+f.close()
+
+f = open('mytext.txt', 'r')
+print(f.readline().strip('\n'))
+print(f.readline().strip('\n'))
+f.close()

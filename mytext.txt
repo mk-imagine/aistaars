@@ -1,0 +1,5 @@
+Hello world!
+This is my text file.
+And this is yet another line in this text file.
+Okay, I’m done now, have nice day.
+Yet another added line
