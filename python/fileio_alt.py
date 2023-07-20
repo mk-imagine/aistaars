@@ -1,3 +1,5 @@
+from nltk.tokenize import RegexpTokenizer
+
 with open('mytext.txt', 'w') as f:
   f.write('Hello world!\n')
   f.write('This is my text file.\n')
